@@ -6,8 +6,7 @@ import { Provider } from "react-redux";
 import { store } from "./store/index.js";
 import axios from "axios";
 
-axios.defaults.headers.post["Content-Type"] =
-  "appliction/x-www-form-urlencoded";
+axios.defaults.headers.post["Content-Type"] = "application/json";
 axios.defaults.baseURL = import.meta.env.VITE_API_URL;
 axios.defaults.timeout = import.meta.env.VITE_TIMEOUT;
 
