@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "atTime": "08:00",
+      "title": "Learning React",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "atTime": "13:00",
+      "title": "Learning redux",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "atTime": "19:30",
+      "title": "Learning tailwindcss",
+      "completed": false
+    }
+  ]
+}

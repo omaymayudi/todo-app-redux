@@ -1,4 +1,5 @@
 import DateComponents from "./components/DateCompenents";
+import DeleteAll from "./components/DeleteAll";
 import FromInput from "./components/FromInput";
 import ListTodo from "./components/ListTodo";
 
@@ -26,7 +27,11 @@ function App() {
                   <ListTodo />
                 </div>
               </div>
+              <div className="flex justify-center items-center">
+                <DeleteAll />
+              </div>
             </div>
+
             {/* <div className="bg-red-500">col-span-1</div> */}
           </div>
         </div>
